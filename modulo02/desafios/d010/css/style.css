@@ -1,3 +1,4 @@
+/*Reset*/
 * {
     margin: 0;
     padding: 0;
@@ -5,55 +6,138 @@
     text-decoration: none;
 }
 
-
+/*Reset*/
 body {
     font-size: 100%;
     background-color: rgb(117, 214, 169);
 }
 
-header {
-    /*background-color: rgb(19, 145, 86);*/
-    background-image: linear-gradient(to top, rgb(17, 105, 17), rgb(77, 187, 55));
-    padding: 30px 10px 0px 10px; 
-}
 
-main {
-    background-color: white;
-    margin: 0px 200px 0px 200px;
+/* Cabeçalho da página */
+header {
+    background-image: linear-gradient(to top, rgb(17, 105, 17), rgb(77, 187, 55));
 }
 
 h1#cabeca {
     color: white;
     text-align: center;
+    padding-top: 30px;
 }
+
 p#cabeca {
     color: white;
     text-align: center;
     margin: 20px;;
 }
 
+/* Navegação da página*/
 nav {
     background-color: rgb(6, 121, 31);
-    padding: 5px;
+    padding: 0px 0px 5px 150px;
 }
 
-nav > a{
-    color: white;
+nav > a {
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0px 15px 0px 0px;
 }
 
+
+/* conteúdo principal */
+main {
+    background-color: white;
+    margin: 0px 150px 20px 150px;
+    padding: 30px 0px 30px 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* Artigos */
+.artigo > h1 {
+    margin:20px;
+}
+
+.artigo > h2 {
+    margin:20px;
+    padding-left: 5px;
+    background-image: linear-gradient(to right, rgba(17, 105, 17, 0.288), rgba(77, 187, 55, 0));
+}
+
+.artigo > p {
+    margin:20px;
+}
+
+.artigo > div {
+    text-align: center;
+}
+
+.artigo strong {
+    color: rgb(18, 87, 1);
+}
+
+/* Imagem do */
+.artigo > div > .android-cor {
+    margin: 0px 20px 0px 20px;
+    width: 60%;
+    height: auto;
+}
+
+/* Imagem da Irina */
+.artigo > div > .irina {
+    margin: 0px 20px 0px 20px;
+    width: 95%;
+    height: auto;
+}
+
+/* Imagem do bug-pequeno */
+.artigo > div > .bug-pequeno {
+    margin: 0px 20px 0px 20px;
+    width: 40%;
+    height: auto;
+}
+
+/* Vídeo */
 .video {
     background-color: rgb(19, 145, 86);
+    padding: 20px 0px 20px 0px;
+    text-align: center;
 }
 
+/* quer aprender mais*/
 .mais {
     background-color: rgb(147, 214, 183);
+    margin: 20px 20px 20px 20px;
+    border-radius: 9px;
+    padding: 0px 0px 20px 0px;
 }
 
 .mais > h2 {
     background-color: rgb(62, 190, 115);
+    color: white;
+    border-radius: 9px 9px 0px 0px;
+    padding: 8px;
 }
 
+.mais > p {
+padding: 10px;
+}
+
+/* Lista */
+.mais > ul {
+    display: inline-block;
+    margin: 0px 80px 0px 0px;
+    padding: 0px 0px 0px 30px;
+}
+
+.entao > p{
+    margin: 0px 20px 0px 20px;
+}
+
+.entao strong {
+    color: rgb(18, 87, 1);
+}
+
+/* rodapé*/
 footer {
     background-color: rgb(14, 102, 61);
 }
