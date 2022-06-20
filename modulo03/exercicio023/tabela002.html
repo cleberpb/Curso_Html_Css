@@ -12,6 +12,7 @@
 
         <!-- ANATOMIA PARA TABELAS GRANDES
             TABLE
+                CAPTION
                 THEAD
                     TR, TD, TH
                 BODY
@@ -20,10 +21,12 @@
                     TR, TD, TH
         -->
         <table>
+            <caption>População das Unidades Federativas</caption>
+            
             <thead>
                 <tr>
-                    <th>Estado</th>
-                    <th>População</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col" style="width: 50px;">População</th>
                 </tr>
             </thead>
 
@@ -70,7 +73,8 @@
                 </tr>
                 <tr>
                     <td>Goiás</td>
-                    <td class="numero">7 206 589</td>>
+                    <td class="numero">7 206 589</td>
+                </tr>
                 <tr>
                     <td>Maranhão</td>
                     <td class="numero">7 153 262</td>
@@ -138,7 +142,7 @@
 
             <tfoot>
                 <tr>
-                    <th>Total de habitantes</th>
+                    <th scope="row">Total de habitantes</th>
                     <td class="numero"><strong>213.317.639</strong></td>
                 </tr>
             </tfoot>
